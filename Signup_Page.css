@@ -8,6 +8,7 @@
  .Login_Button{
          border: none;
             color:rgb(69, 66, 66);
+            cursor: pointer;
         }
         form input{
             font-size:15px;
@@ -24,6 +25,7 @@
             font-size: 15px;
             padding:15px;
             margin:6px;
+            cursor: pointer;
         }
         .signupDiv{
             position: relative;
@@ -54,10 +56,13 @@
         }
         .fb{
             background-color:#31a9d9b9;
+            cursor: pointer;
            }
         .google{
             background-color:#7d4807;
+            cursor: pointer;
            }
       .twitter{
             background-color:#162e37;
+            cursor: pointer;
            }
