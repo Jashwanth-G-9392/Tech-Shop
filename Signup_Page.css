@@ -31,4 +31,25 @@
             color: rgb(31, 26, 26);
             width: 500px;
         }
+        hr{
+            width:309px;
+            position: relative;
+            right:76px;
+           }
+        span{
+            position: relative;
+            left: 110px;
+            background-color: #1f1a1a;
+            bottom: 18px;
+            padding: 18px;
+            margin: 4px;
+           }
+        .fb,.google,.twitter{
+            margin:7px;
+            padding:7px;
+            font-size: 15px;
+            width:100px;
+            border:solid rgb(31, 26, 26);
+            border-radius: 5px;
+        }
     
