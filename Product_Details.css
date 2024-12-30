@@ -187,3 +187,71 @@ font-size: 20px;
         left: 250px;
         color: lightgrey;
     }
+    .body4heading{
+        text-align: center;
+        font-size: 23px;
+        color: lightgrey;
+    }
+    .body4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    }
+    .TPimg1{
+       height:200px;
+       width:200px;
+       background-color: rgba(61, 58, 56, 0.171);
+    }
+    .b4div1{
+        border: 2px solid gray;
+        margin:5px;
+        padding:5px;
+        /* justify-self: center; */         
+    }
+    .TPimgdiv{
+       text-align: center;
+       width:305px;
+       background-color: rgba(219, 207, 199, 0.171);
+    }
+    .fa-star{
+        color:red;
+        font-size: 12px;
+    }
+    .TP1pricediv{
+       display: flex;
+    }
+    .TP1discountprice{
+       margin:7px 5px 7px 7px;
+       font-size: 25px;
+       color:lightgray
+    }
+    .TP1price{
+       font-size: 20px;
+       margin:9px 8px 8px 5px;
+       text-decoration: line-through;
+       color:rgb(113, 116, 106);
+       font-weight: bold;
+    }
+    .TP1heading{
+      font-size: 30px;
+      color: lightgray;
+    }
+    .TP1aside{
+       color:rgb(113, 116, 106);
+       font-size: 25px;
+    }
+    .TPCart1{
+       color: lightgray;
+       background-color: red;
+       padding: 5px;
+       width: 271px;
+       border-radius: 5px;
+       border: none;
+       height: 40px;
+       font-size: 20px;
+    }
+    .TPCartDiv1{
+       text-align: center;
+    }
+    .TPcontentdiv{
+       margin:15px
+    }
