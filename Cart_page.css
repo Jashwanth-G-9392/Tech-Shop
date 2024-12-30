@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: lightgrey;
+}
+body{
+    background-color:  #0f0f0f;
+}
+.Top{
+        display: flex;
+        margin: 0px 2px 50px 1px;
+        background-color:  #0f0f0f;
+        position: sticky;
+        top: 0px;
+        z-index: 10000;
+        height: 75px;
+}
+.heading{
+    color:lightgrey;
+    font-size:40px;
+    margin:20px;
+}
+.icons{
+    display: flex;
+    position:relative;
+    left:850px;
+    top:32px;
+    color:lightgrey;
+}
+.search{
+    position:relative;
+    left:90px;
+    font-size: 20px;  
+    height: 20px;
+    cursor: pointer; 
+}
+.cart{
+    position: relative;
+    left: 140px;
+    font-size: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.cartcount{
+    background-color: red;
+    border-radius: 100%;
+    padding: 2px 5px;
+    font-size: 13px;
+    position: relative;
+    bottom: 9px;
+}
+.user{
+    position: relative;
+    left: 190px;
+    font-size: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+ .hide1{
+    visibility:hidden;
+    position: absolute;
+    top: 21px;
+    z-index: 1000;
+    right: 0px;
+    width: 223px; 
+    border: 2px solid gray;  
+}
+.user:hover  .hide1 {
+    opacity: 1;
+    visibility: visible; 
+}
+.CP1{
+    display: flex;
+}
+.pricediv{
+    display:flex;
+    font-size: 28px;
+    margin: 10px 5px 20px 0px;  
+ }
+.discountprice{
+    margin:7px 5px 7px 7px;
+}
+.price{
+    font-size: 23px;
+    margin:10px 8px 8px 8px;
+    text-decoration: line-through;
+    color:rgb(113, 116, 106);
+    font-weight: bold;
+}
+.fa-trash{
+    /* margin: 0px 20px 0px 600px; */
+    position: relative;
+    left: 80px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin: 5px 30px;
+}
+.countdiv{
+    border: 1px solid gray;
+    width: 108px;
+    border-radius: 5px;
+}
+.fa-minus,.fa-plus{
+     padding: 5px 10px;
+     background-color: rgb(21, 20, 20);
+     border-radius: 5px;
+}
+.countdiv span{
+    padding:5px 10px;
+    color: red;
+}
+.imgdisc{
+    font-size: 25px;
+}
+.Cartpagebody1{
+    display:flex;
+}
+.cartproducts{
+    background-color: #343030;
+    width:65%;
+    padding: 20px;
+   
+}
