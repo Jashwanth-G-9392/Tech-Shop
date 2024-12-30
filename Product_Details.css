@@ -255,3 +255,29 @@ font-size: 20px;
     .TPcontentdiv{
        margin:15px
     }
+    .heading4{
+        text-align: center;
+        font-size: 35px;
+        color:lightgray;
+        }
+        .AdvantagesDiv{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+        }
+        .truckdiv{
+        display: flex;
+        }
+        .fa-truck,.fa-shield-halved,.fa-tags,.fa-credit-card{
+        color: red;
+        font-size: 33px;
+        margin:10px 20px 10px 10px;
+        }
+        .OAiconheading{
+        font-size: 23px;
+        color:lightgray
+        }
+        .OAIconContent{
+        font-size:18px;
+        color:rgb(113, 116, 106);
+        }
