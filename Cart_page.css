@@ -122,7 +122,9 @@ img{
     background-color: #343030;
     width:65%;
     padding: 20px;
-   
+    height:400px;
+    overflow-x: hidden; 
+    overflow-y: scroll;
 }
 .cartsummary{
     margin: 0px 10px;
