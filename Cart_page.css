@@ -166,4 +166,5 @@ hr{
     width: 350px;
     position: relative;
     left: 40px;
+    cursor: pointer;
 }
