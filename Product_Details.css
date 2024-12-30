@@ -148,3 +148,42 @@ border: none;
 height: 40px;
 font-size: 20px;
 }
+.PDdiv{
+    display: flex;
+    justify-content: center;
+    }
+    .PDbutton1,.PDbutton2,.PDbutton3{
+        border:none;
+        color: lightgrey;
+        font-size: 20px;
+        background-color:rgb(31, 26, 26);
+        padding:5px 10px 5px 10px;
+        margin: 60px;
+        cursor: pointer;
+    }
+    .PDbutton1{
+        background-color:red;
+        color:white;
+        border-radius:2px;
+        padding:5px 10px 5px 10px;
+    }
+    .PDbutton2:hover,.PDbutton3:hover{ 
+        background-color:red;
+        color:white;
+        transition-delay:5ms;
+        border-radius:2px;
+    }
+    .body3{
+        display: flex;
+        font-size: 20px;
+    }
+    .B3Div1{
+           position:relative;
+           left: 60px;
+           color:rgb(113, 116, 106);
+    }
+    .B3Div2{
+        position: relative;
+        left: 250px;
+        color: lightgrey;
+    }
