@@ -52,4 +52,12 @@
             border:solid rgb(31, 26, 26);
             border-radius: 5px;
         }
-    
+        .fb{
+            background-color:#31a9d9b9;
+           }
+        .google{
+            background-color:#7d4807;
+           }
+      .twitter{
+            background-color:#162e37;
+           }
