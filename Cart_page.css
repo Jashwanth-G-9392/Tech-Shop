@@ -124,3 +124,44 @@ img{
     padding: 20px;
    
 }
+.cartsummary{
+    margin: 0px 10px;
+    font-size: 25px;
+}
+.Pricediv{
+    display: flex;
+}
+.Csdiv2{
+    position: relative;
+    left: 150px;
+}
+.Csdiv2 ul li:last-of-type,.offer
+{
+    color: green;
+}
+
+hr{
+    width: 90%;
+    margin: 5px 5%;
+}
+.totalprice{
+    display: flex;
+}
+.totalprice span{
+    font-size: 25px;
+}
+.totalprice span:nth-child(2){
+    position: relative;
+    left: 190px;
+}
+.checkoutbutton{
+    margin: 5px;
+    background-color: rgb(226, 9, 9);
+    border: solid rgb(255, 14, 14);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    width: 350px;
+    position: relative;
+    left: 40px;
+}
